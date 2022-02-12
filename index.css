@@ -142,7 +142,7 @@ main {
   main {
     padding: 1rem 0;
     display: grid;
-    place-items: center;
+    place-items: start;
   }
   .slider-item {
     height: unset;
@@ -165,13 +165,8 @@ main {
 
     grid-column: 1 / 2;
     grid-row: 1 / 2;
-    max-width: 560px;
     width: 100%;
     margin-inline: auto;
-  }
-  .img-cont > img {
-    width: 100%;
-    max-width: 100%;
   }
   .slider-item .slider-item__txt-cont {
     padding: 1rem 0;
