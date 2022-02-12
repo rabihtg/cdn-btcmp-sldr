@@ -136,7 +136,7 @@ main {
     background-size: 90% 10%;
   }
   .slider-item {
-    gap: 0.5rem;
+    gap: 1rem;
     grid-template-columns: 1fr;
     background: none;
   }
@@ -167,7 +167,7 @@ main {
     justify-self: center;
     text-align: center;
     max-width: 90%;
-    font-size: 0.59rem;
+    font-size: clamp(0.58rem, 5vw, 0.8rem);
   }
   .slider-btn {
     bottom: 10px;
