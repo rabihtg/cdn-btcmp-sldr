@@ -183,3 +183,14 @@ main {
     margin: 1px;
   }
 }
+@media (max-height: 480px) {
+  body {
+    min-height: 120vh;
+  }
+  main {
+    align-items: flex-start;
+  }
+  .slider-item:not(.hidden) {
+    min-height: 120vh;
+  }
+}
